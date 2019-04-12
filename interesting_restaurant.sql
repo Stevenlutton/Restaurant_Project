@@ -239,3 +239,24 @@ JOIN da_steven.liquor_licenses l ON r.facilityname = l.doing_business_as
 GROUP BY 1
 ORDER BY 2 DESC
  -- 
+
+
+
+
+
+ ----------------TOP 10 RESTAURANTS IN BOULDER ACCORDING TO TRIP ADVISOR.COM--------------------
+
+SELECT * 
+FROM da_steven.restaraunt_violations
+WHERE facilityname LIKE '%BLACK CAT%'
+
+-- 1. BLACK CAT
+-- 2. SNOOZE AN AM EATERY
+-- 3. AVERY BREWING COMPANY
+-- 4. MOUNTAIN SUN PUB & BREWERY 
+-- 5. BOULDER DUSHANBE TEA HOUSE
+-- 6. RIFF'S URBAN FARE    'RIFFS URBAN FARE''
+-- 7. JAX FISHOUSE & OYSTER BAR  'JAX FISH HOUSE'
+-- 8. BRASSERIE TEN TEN
+-- 9. OAK AT FOURTEENTH
+-- 10. LUCILE'S CREOLE CAFE  'LUCILES CREOLE CAFE'
