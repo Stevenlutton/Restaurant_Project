@@ -3,7 +3,7 @@
 Let's say you're visiting Boulder and you want to check out the top 10 restaurants to eat. 
 You hop on your mobile device and the top ten restaurants comes up on Trip Advisor. [Here](https://www.tripadvisor.com/Restaurants-g33324-Boulder_Colorado.html) is a link that shows the top restaurants to eat in Boulder according to Trip Advisor.
 
-You're not familiar with the area so you want to make sure you don't get food poisoning, and you want to ensure the general cleanliness, so you hop over [here](https://github.com/Stevenlutton/Restaurant_Project) to my tableau project.
+You're not familiar with the area so you want to make sure you don't get food poisoning, and you want to ensure the general cleanliness, so you hop over [here](https://public.tableau.com/profile/steven.lutton#!/vizhome/DA_Project/Top10FromTATop10) to my tableau project.
 
 I have the top 10 restaurants according to Trip Advisor ranked by their average inspection score. The lower the score the better. [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/07/how-to-calculate-inspection-ratings.pdf) and [here](https://assets.bouldercounty.org/wp-content/uploads/2017/02/CalculateInspectionRatings.pdf) are some links explaining inspection calculations. 
 
