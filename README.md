@@ -5,7 +5,7 @@ You hop on your mobile device and the top ten restaurants comes up on Trip Advis
 
 You're not familiar with the area so you want to make sure you don't get food poisoning, and you want to ensure the general cleanliness, so you hop over [here](https://public.tableau.com/profile/steven.lutton#!/vizhome/DA_Project/Top10FromTATop10) to my Tableau project.
 
-I have the top 10 restaurants according to Trip Advisor ranked by their average inspection score. The lower the score the better. [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/07/how-to-calculate-inspection-ratings.pdf) and [here](https://assets.bouldercounty.org/wp-content/uploads/2017/02/CalculateInspectionRatings.pdf) are some links explaining inspection calculations. 
+I have the top 10 restaurants according to Trip Advisor ranked by their average inspection score. The lower the score the better. [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/07/how-to-calculate-inspection-ratings.pdf) and [aqui](https://assets.bouldercounty.org/wp-content/uploads/2017/02/CalculateInspectionRatings.pdf) are some links explaining inspection calculations. 
 
 If you would like to dig deeper into the data yourself I have provided my original data set including only CO Restaurants (the original had some outliers) with a 5 digit zip code. (5digitzipallco)
 
