@@ -260,3 +260,27 @@ WHERE facilityname LIKE '%BLACK CAT%'
 -- 8. BRASSERIE TEN TEN
 -- 9. OAK AT FOURTEENTH
 -- 10. LUCILE'S CREOLE CAFE  'LUCILES CREOLE CAFE'
+
+
+
+------LOCATIONS---------
+SELECT DISTINCT facilityname, location 
+FROM da_steven.restaraunt_violations 
+WHERE facilityname LIKE '%BLACK CAT%'
+  OR facilityname LIKE '%SNOOZE%'
+  OR facilityname LIKE '%AVERY%'
+  OR facilityname LIKE '%BOULDER DUSHANBE%'
+  OR facilityname LIKE '%OAK%'
+  OR facilityname LIKE '%MOUNTAIN SUN%'
+  OR facilityname LIKE '%RIFFS%'
+  OR facilityname LIKE '%LUCILES%'
+  OR facilityname LIKE '%JAX%'
+  OR facilityname LIKE '%BRASSERIE%'
+
+  -----MY FINAL DATASET (Restaurant_Inspections)-------------
+SELECT * 
+FROM da_steven.fivedigitzipallco
+WHERE violationpoints NOT LIKE '0' 
+  AND violationpoints NOT LIKE 'NULL' 
+  AND violationcode NOT LIKE 'AM%'
+  AND violationcode NOT LIKE 'FC%'
