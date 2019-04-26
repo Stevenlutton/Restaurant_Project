@@ -249,3 +249,17 @@ SELECT *
 FROM da_steven.fivedigitzipallco
 WHERE violationpoints NOT LIKE '0' 
   AND violationpoints NOT LIKE 'NULL' 
+
+
+-----List of all the restaurants with their average inspection score and times they've been inspected---
+SELECT facilityname AS Restaurant, 
+       AVG(inspectionscore)::Integer AS Average_Inspection_Score,
+	   COUNT (DISTINCT inspectiondate) AS Times_Inspected 
+FROM da_steven.fivedigitzipallco
+GROUP BY 1
+
+----The Liquor Stores---
+SELECT DISTINCT doing_business_as, 
+                CASE WHEN license_type = 'Liquor Store (city)' THEN 'Yes'
+				ELSE NULL END AS Liquor_Store
+FROM da_steven.liquor_licenses
