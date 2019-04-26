@@ -12,7 +12,11 @@ I have the top 10 restaurants according to Trip Advisor ranked by their average 
 
 ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/My%20Rankings.png) ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Standing%20Categories.png)
 
-[Here](https://assets.bouldercounty.org/wp-content/uploads/2017/07/how-to-calculate-inspection-ratings.pdf) and [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/02/CalculateInspectionRatings.pdf) are some links explaining inspection calculations. 
+[Here](https://assets.bouldercounty.org/wp-content/uploads/2017/07/how-to-calculate-inspection-ratings.pdf) is a link explaining the categories that certain violations fall under.
+![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Type%20of%20Violation.png)
+
+and [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/02/CalculateInspectionRatings.pdf) is a link that will help to explain the points attributed to each violation.
+![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Points%20for%20Violation.png) 
 
 If you would like to dig deeper into the data yourself I have provided my original data set including only CO Restaurants with a 5 digit zip code, and excluding all records showing a 0 or NULL for the inspection points. (Restaurants.csv)
 
