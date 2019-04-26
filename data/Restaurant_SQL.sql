@@ -1,4 +1,4 @@
--- Distinct inspectiontype
+-- All of the inspection types
 SELECT DISTINCT(inspectiontype)
 FROM da_steven.restaraunt_violations
 --  ROUTINE INSPECTION
@@ -19,6 +19,7 @@ FROM da_steven.restaraunt_violations
 --  FOLLOW-UP INSPECTION
 --  4TH FOLLOW-UP INSPECTION COMPLIANCE
 
+--All of the types of facilities
 SELECT DISTINCT(typeoffacility)
 FROM da_steven.restaraunt_violations;
 --  SPECIAL EVENT
@@ -35,11 +36,13 @@ FROM da_steven.restaraunt_violations;
 --  LIMITED FOOD SERVICE CONVENIENCE OTHER
 --  NO FEE LICENSE K12 SCHOOLS NON PROFIT
 
+--Total amount of facilities
 SELECT DISTINCT(facilityname)
 FROM da_steven.restaraunt_violations
 ORDER BY facilityname;
  --1,571 facilities
 
+--List of facility categories
 SELECT DISTINCT (categoryoffacility)
 FROM da_steven.restaraunt_violations;
 -- SCHOOLS
@@ -62,64 +65,32 @@ FROM da_steven.restaraunt_violations;
 -- FAST FOOD LIMITED MENU
 -- 18 Rows
 
+--How I discovered the variation in points
 SELECT DISTINCT (violationpoints)
 FROM da_steven.restaraunt_violations
 LIMIT 1000
 -- Null, 0, 1, 2, 5, 10, 15, 20, 25
 
+--There are 133 different violations recorded
 SELECT DISTINCT (violation)
 FROM da_steven.restaraunt_violations
 LIMIT 1000
 --133 rows
 
+--Research on my restaurant (my place of employment)
 SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
 FROM da_steven.restaraunt_violations
 WHERE facilityname LIKE '%95A%'
 ORDER BY inspectiondate 
  -- 95A Data
 
- SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
+SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
 FROM da_steven.restaraunt_violations
 WHERE facilityname LIKE '%95A%' AND inspectiontype LIKE 'COMPLAINT INSPECTION'
 ORDER BY inspectiondate 
  -- 95A Data - complaint inspections
 
- SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
-FROM da_steven.restaraunt_violations
-WHERE facilityname LIKE '%95A%' AND inspectiontype LIKE 'REGULAR INSPECTION'
-ORDER BY inspectiondate 
- --95A Data - regular inspections
-
-SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
-FROM da_steven.restaraunt_violations
-WHERE facilityname LIKE '%95A%' AND inspectiontype LIKE 'FOLLOW-UP INSPECTION'
-ORDER BY inspectiondate 
- --95A Data - follow-up inspections
-
-SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
-FROM da_steven.restaraunt_violations
-WHERE facilityname LIKE '%95A%' AND inspectiontype LIKE 'ROUTINE INSPECTION'
-ORDER BY inspectiondate
- --95A Data - routine inspections
-
- SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
-FROM da_steven.restaraunt_violations
-WHERE facilityname LIKE '%95A%' AND inspectiontype LIKE 'ACTIVE MANAGEMENT CONTROL (AMC)'
-ORDER BY inspectiondate 
- --95A Data - active management control (AMC)
-
-SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
-FROM da_steven.restaraunt_violations
-WHERE city LIKE 'LAFAYETTE'
-ORDER BY facilityname, inspectiondate 
- --Lafayette Restaurants 
-
-SELECT facilityid, facilityname, city, state, zip, inspectiontype, inspectiondate, violationcode, violation, violationpoints, violationtype, inspectionscore
-FROM da_steven.restaraunt_violations
-WHERE facilityname LIKE 'COMMUNITY'
-ORDER BY facilityname, inspectiondate
---  COMMUNITY DATA
-
+--Boulder Restaurants
 SELECT DISTINCT(facilityname),
        facilityid,
        city,
@@ -134,18 +105,19 @@ SELECT DISTINCT(facilityname),
 	   inspectionscore
 FROM da_steven.restaraunt_violations
 WHERE city IN ('Boulder','BOULDER','boulder')
- --Boulder Restaurants 
- --191287
+ --191287 rows
+
+ --Lafayette Restaurants 
 SELECT DISTINCT *
 FROM da_steven.restaraunt_violations
 WHERE city IN ('Lafayette','LAFAYETTE','lafayette')
- --Lafayette Restaurants 
 
- SELECT *
-FROM da_steven.restaraunt_violations
-WHERE city IN ('Louisville','LOUISVILLE','louisville')
  --Louisville Restaurants 
 --26103 rows
+SELECT *
+FROM da_steven.restaraunt_violations
+WHERE city IN ('Louisville','LOUISVILLE','louisville')
+
 
 SELECT * 
 FROM da_steven.boulder_restaurants b 
@@ -238,12 +210,7 @@ FROM da_steven.restaraunt_violations r
 JOIN da_steven.liquor_licenses l ON r.facilityname = l.doing_business_as 
 GROUP BY 1
 ORDER BY 2 DESC
- -- 
-
-
-
-
-
+ 
  ----------------TOP 10 RESTAURANTS IN BOULDER ACCORDING TO TRIP ADVISOR.COM--------------------
 
 SELECT * 
@@ -277,10 +244,8 @@ WHERE facilityname LIKE '%BLACK CAT%'
   OR facilityname LIKE '%JAX%'
   OR facilityname LIKE '%BRASSERIE%'
 
-  -----MY FINAL DATASET (Restaurant_Inspections)-------------
+  -----MY FINAL DATASET (Restaurant.csv)-------------
 SELECT * 
 FROM da_steven.fivedigitzipallco
 WHERE violationpoints NOT LIKE '0' 
   AND violationpoints NOT LIKE 'NULL' 
-  AND violationcode NOT LIKE 'AM%'
-  AND violationcode NOT LIKE 'FC%'
