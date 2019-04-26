@@ -10,7 +10,7 @@ You're not familiar with the area so you want to make sure you don't get food po
 
 I have the top 10 restaurants according to Trip Advisor ranked by their average inspection score. The lower the score the better. 
 
-![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/My%20Rankings.png)
+![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/My%20Rankings.png) ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Standing%20Categories.png)
 
 [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/07/how-to-calculate-inspection-ratings.pdf) and [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/02/CalculateInspectionRatings.pdf) are some links explaining inspection calculations. 
 
