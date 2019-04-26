@@ -10,6 +10,8 @@ I have the top 10 restaurants according to Trip Advisor ranked by their average 
 
 ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/My%20Rankings.png) ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Standing%20Categories.png)
 
+![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Top10Chart.png)
+
 [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/07/how-to-calculate-inspection-ratings.pdf) is a link explaining the categories that certain violations fall under.
 ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Type%20of%20Violation.png)
 
