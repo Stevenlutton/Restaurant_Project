@@ -16,10 +16,14 @@ I have the top 10 restaurants according to Trip Advisor ranked by their average 
 
 If you would like to dig deeper into the data yourself I have provided my original data set including only CO Restaurants with a 5 digit zip code, and excluding all records showing a 0 or NULL for the inspection points. (Restaurants.csv)
 
+I used PostgreSQL to filter through the original dataset and have provided SQL queries that I used to get the cleanest and most useful data.  
+
 If you would like to download the original dataset you can do so [here](https://data.colorado.gov/Municipal/Restaurant-Inspections-in-Boulder-County-Colorado/tuvj-xz3m)
 
 I have also included CSV's and Excel workbooks with pivot tables for the top 10 restaurants in Boulder, Colorado according to Trip Advisor.com, as well as the dataset where I found the license types (co_liquor_licenses)
 
-I am currently trying to develop an interactive pivot table on my tableau dashboard that will allow you to view any restaurant's inspection details. Once this is operational I will hopefully have filters allowing you to look at any restaurant by violation type (critical and not critical) as well as the inspection type. I would also like to include geographic data at least for the top 10 and color coding according to poor, fair, marginal, good, and excellent. 
+I am developing a personal top 10 that allows you to select your own 10 restaurants to investigate and locate on the map. You will be able to highlight specific restaurants from there and see their location on the map and address in the tooltip as well as (maybe a phone number) an interactive table that details the inspections themselves. You can then drill them down to their violation group and if they are critical/noncritical. and maybe by inspection type. and restuarant type. 
+
+
 
 
