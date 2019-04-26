@@ -18,7 +18,7 @@ and [Here](https://assets.bouldercounty.org/wp-content/uploads/2017/02/Calculate
 
 If you would like to dig deeper into the data yourself I have provided my original data set including only CO Restaurants with a 5 digit zip code, and excluding all records showing a 0 or NULL for the inspection points. (Restaurants.csv)
 
-I used PostgreSQL to filter through the original dataset and have provided SQL queries that I used to get the cleanest and most useful data.  
+I used PostgreSQL to filter through the original dataset and have provided SQL queries that I used to get the cleanest and most useful data. (Restaurant_SQL.sql) 
 
 If you would like to download the original dataset you can do so [here](https://data.colorado.gov/Municipal/Restaurant-Inspections-in-Boulder-County-Colorado/tuvj-xz3m)
 
