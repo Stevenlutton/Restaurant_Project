@@ -6,8 +6,6 @@ You hop on your mobile device and the top ten restaurants comes up on Trip Advis
 ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Trip%20Advisor's%20Rankings.png)
 
 
-You're not familiar with the area so you want to make sure you don't get food poisoning, and you want to ensure the general cleanliness, so you hop over [here](https://public.tableau.com/profile/steven.lutton#!/vizhome/TripAdvisorsTop10RestaurantsbyAverageInspectionScore/Top10Colored) to my Tableau project.
-
 I have the top 10 restaurants according to Trip Advisor ranked by their average inspection score. The lower the score the better. 
 
 ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/My%20Rankings.png) ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Standing%20Categories.png)
