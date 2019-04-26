@@ -3,7 +3,7 @@
 Let's say you're visiting Boulder and you want to check out the top 10 restaurants to eat. 
 You open your mobile device and a simple "Best places to eat in Boulder" search returns [this](https://www.tripadvisor.com/Restaurants-g33324-Boulder_Colorado.html) list of restaurants from TripAdvisor.com. 
 
-![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Trip%20Advisor's%20Rankings.png)
+![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Trip%20Advisor's%20Rankings.png) ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Restaurant%20Score%20Standing.png)
 
 
 I have the top 10 restaurants according to Trip Advisor ranked by their average inspection score. The lower the score the better. 
