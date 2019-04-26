@@ -1,6 +1,7 @@
 # Top 10 Restaurants in Boulder, Colorado according to Trip Advisor.com ranked by their average inspection score based off of public inspection records. 
 
 ![alt text](https://github.com/Stevenlutton/Restaurant_Project/blob/master/Images/Trip%20Advisor's%20Top%2010%20Ranked.png)
+
 Let's say you're visiting Boulder and you want to check out the top 10 restaurants to eat. 
 You hop on your mobile device and the top ten restaurants comes up on Trip Advisor. [Here](https://www.tripadvisor.com/Restaurants-g33324-Boulder_Colorado.html) is a link that shows the top restaurants to eat in Boulder according to Trip Advisor.
 
