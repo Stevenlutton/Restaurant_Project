@@ -28,7 +28,7 @@ I have also included CSV's and Excel workbooks with pivot tables for the top 10 
 
 Click [here](https://public.tableau.com/profile/steven.lutton#!/vizhome/TripAdvisorsTop10RestaurantsbyAverageInspectionScore/Top10Dashboard?) to access my Tableau presention.  (((story still to be added)))
 
-My first dashboard displays the top 10 restaurants from Trip Advisor's list ranked according to their average inspection scores. (((click on any restaurant to see details from their inspections I NEED TO ADD ACTION STILL)))
+My first dashboard displays the top 10 restaurants from Trip Advisor's list ranked according to their average inspection scores. When you are ready to continue, read the next paragraph for instructions, then click the green arrow in the bottom right corner.
 
 On the next dashboard I have developed an interactive user experience so that users can select restaurants to investigate and locate on the map. If you hover over a bubble it will show you the restaurant information on the map as well as the scatter plot. The ideal quadrant on the scatter plot is below the average inspection score and above the average times inspected. If you select a restaurant you will be brought to a table with details for each inspection. You can click the back button to return to the map and select a different restaurant. You can filter down to specific restaurants on the map using the filters on the side. On the table you can decide if you want to see all the inspection details or only the violations that are considered "critical", which means the violation can create a food-bourne illness, as well as the type of inspections displayed. 
 
